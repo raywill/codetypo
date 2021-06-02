@@ -1,9 +1,13 @@
 # codetypo
 Auto check typo in codes
 
+![image](https://user-images.githubusercontent.com/248295/120491718-0cd64800-c3ec-11eb-8f2d-167e70d956d9.png)
+
 codetypo 的字典是基于英语字典、linux 内核源码、linux 内核 Documentation、MySQL-6.0 源码生成。
 
 (MySQL-6.0 里也有大量错别字>_<|)
+
+
 
 ## parser.py
 
