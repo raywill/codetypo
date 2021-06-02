@@ -42,3 +42,17 @@ cat a.txt b.txt > spell.dict
 python checker.py oceanbase-3.1/src/
 ```
 
+Sample output：
+```
+/code/oceanbase/src/clog/ob_ilog_storage.cpp
+ pruge (suggestion: purge)
+ betweent (suggestion: betweend)
+
+/code/oceanbase/src/clog/ob_log_archive_and_restore_driver.cpp
+ archvie (suggestion: archie)
+
+/code/oceanbase/src/clog/ob_log_membership_task_mgr.cpp
+ leadera (suggestion: leaders)
+ cascad (suggestion: cascade)
+```
+
