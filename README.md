@@ -11,12 +11,12 @@ codetypo 的字典是基于英语字典、linux 内核源码、linux 内核 Docu
 
 
 
-## parser.py
+### parser.py
 
 用于生成词典。例如用 parser.py 爬 linux 中所有的单词，作为词典。
 
 
-## checker.py
+### checker.py
 
 用于检查源码是否有错别字。
 
