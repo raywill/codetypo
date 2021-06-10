@@ -1,5 +1,7 @@
 # codetypo
-Auto check typo in codes
+Word 等工具虽然支持拼写检查，但是对于代码拼写检查却无能为力。`codetypo` 支持对代码做拼写检查，同时保证缩写、简写不是拼写错误。
+
+`codetypo` 工作流程如下：
 
 ![image](https://user-images.githubusercontent.com/248295/120491718-0cd64800-c3ec-11eb-8f2d-167e70d956d9.png)
 
