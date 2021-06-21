@@ -1,5 +1,6 @@
 # codetypo
-Auto check typo in codes
+Word 等工具虽然支持拼写检查，但是对于代码拼写检查却无能为力。codetypo 支持对代码做拼写检查，同时保证缩写、简写不被当做拼写错误。
+
 
 ![image](https://user-images.githubusercontent.com/248295/120491718-0cd64800-c3ec-11eb-8f2d-167e70d956d9.png)
 
@@ -13,6 +14,8 @@ codetypo 的字典是基于英语字典、linux 内核源码、linux 内核 Docu
 
 用于生成词典。例如用 parser.py 爬 linux 中所有的单词，作为词典。
 
+
+每个 project 可能有大量自己专有词汇，可以在 material 目录下新建一个文件，专门记录之，这样可以尽可能少一些误报。
 
 ## checker.py
 
